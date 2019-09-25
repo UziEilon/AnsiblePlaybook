@@ -1,4 +1,4 @@
 extra_vars:
   CYBERARK_DB_PASSWORD: '{{ password }}'
-  CYBERARK_DB_CONN: '{{ username }}'
-  CYBERARK_DB_USERNAME: '{{ db }}'
+  CYBERARK_DB_CONN: '{{ password }}'
+  CYBERARK_DB_USERNAME: '{{ username }}'
