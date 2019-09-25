@@ -5,6 +5,4 @@
     tasks:
     - name: Retrieve a secret
       debug:
-        msg: "DB USER {{ ansible_env.CYBERARK_DB_USERNAME}}"
-      debug:
-        msg: "DB PASSWORD {{ ansible_env.CYBERARK_DB_PASSWORD}}"
+        msg: "DB USER {{ ansible_env.CYBERARK_DB_USERNAME}} \n DB PASSWORD {{ ansible_env.CYBERARK_DB_PASSWORD}}"
