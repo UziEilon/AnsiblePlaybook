@@ -2,17 +2,11 @@ fields:
   - id: username
     type: string
     label: Username
-    help_text: CyberArk REST API Username
+    help_text: Database Username
   - id: password
     type: string
-    label: Password
-    secret: true
-    help_text: CyberArk REST API Password
-  - id: db
-    type: string
-    label: db_connec tString
-    help_text: 'CyberArk connector string'
+    label: Database Password
+    help_text: Database password
 required:
   - username
   - password
-  - db
